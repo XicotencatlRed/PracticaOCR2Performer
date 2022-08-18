@@ -167,7 +167,7 @@
               <InArgument x:TypeArguments="x:String">Amount Interest and Amount Principal is equal to 0</InArgument>
             </Assign.Value>
           </Assign>
-          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{in_TransactionItem.Reference,in_TransactionItem.SpecificContent(&quot;UnpaidPrincipal&quot;),in_TransactionItem.SpecificContent(&quot;AmountInterest&quot;),in_TransactionItem.SpecificContent(&quot;AmountPrincipal&quot;),in_TransactionItem.SpecificContent(&quot;ServiceFees&quot;),in_TransactionItem.SpecificContent(&quot;OtherFeesCollections&quot;),FlagException,TotalPaymet}]" DataTable="[in_out_dt_BankReport]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="334,185" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
+          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{in_TransactionItem.Reference,in_TransactionItem.SpecificContent(&quot;UnpaidPrincipal&quot;),in_TransactionItem.SpecificContent(&quot;AmountInterest&quot;),in_TransactionItem.SpecificContent(&quot;AmountPrincipal&quot;),in_TransactionItem.SpecificContent(&quot;ServiceFees&quot;),in_TransactionItem.SpecificContent(&quot;OtherFeesCollections&quot;),FlagException,TotalPaymet,FlagComent}]" DataTable="[in_out_dt_BankReport]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="334,185" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
           <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_6">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[FlagException]</OutArgument>
